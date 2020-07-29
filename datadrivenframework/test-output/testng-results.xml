@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17245" started-at="2020-07-16T15:13:07Z" finished-at="2020-07-16T15:13:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17245" started-at="2020-07-16T15:13:07Z" finished-at="2020-07-16T15:13:24Z">
+      <class name="driverpack.DataProviderDemo">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:driverpack.DataProviderDemo@725bef66]" name="beforeMethod" is-config="true" duration-ms="9675" started-at="2020-07-16T20:43:07Z" finished-at="2020-07-16T20:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:driverpack.DataProviderDemo@725bef66]" name="f" duration-ms="7424" started-at="2020-07-16T20:43:16Z" data-provider="dp" finished-at="2020-07-16T20:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mgr123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mgr!23]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:driverpack.DataProviderDemo@725bef66]" name="afterMethod" is-config="true" duration-ms="110" started-at="2020-07-16T20:43:24Z" finished-at="2020-07-16T20:43:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- driverpack.DataProviderDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
